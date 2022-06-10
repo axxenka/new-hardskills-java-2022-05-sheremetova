@@ -6,7 +6,7 @@ public class Lesson2homework {
     }
 
     private static void getTaxes() {
-        double taxes = 0.13;
-        System.out.println ( salary - salary * taxes);
+        salary -= salary * 0.13;
+        System.out.println(salary);
     }
 }
